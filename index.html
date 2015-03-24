@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+	<style>
+	*{
+		font-size: 32px;
+		font-family: "segoe ui";
+	}
+
+	</style>
+	<script src="angular.js"></script>
+
+</head>
+
+<body ng-app>
+	<input placeholder="your name here" type="text" ng-model="name">
+	<br />
+	<input placeholder="your father name here" type="text" ng-model="fname">
+	<br />
+	<input placeholde="your age" type="number" ng-model="age">
+	<br />
+
+	<p>your name is: {{ name }} </p>
+	<p>your father name is: {{ fname }} </p>
+	<p>your age is: {{ age }} </p>
+
+
+
+</body>
+
+</html>
